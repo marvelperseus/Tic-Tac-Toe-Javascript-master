@@ -1,0 +1,35 @@
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+
+body , body {
+  display:flex;
+}
+#container {
+    text-align: center;
+    margin: 0 auto;
+}
+#tic {
+  height: auto;
+  margin:auto;
+}
+
+.tictac {
+	width: 250px;
+    height: 250px;
+    font-size: 180px;
+}
+#ok {
+	border: 1px solid #333;
+    font-size: 30px;
+    outline: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+#result {
+	font-size: 25px;
+    color: red;
+}
